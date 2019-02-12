@@ -10,7 +10,7 @@ After cloning/downloading `gibMacOS` \(that will be refereed as gOS later on\), 
 Now that you're inside the command prompt/powershell/terminal, we'll use gibMacOS to download the Recovery HD to be restored:
 
 1. run `python gibMacOS.command -r -v <macos version>` and replace `<macos version>` with your target version:
-   1. `10.14` or `mojave` for macOS Mojave release
+   1. `10.14` or `mojave` for macOS Mojave release (some nvidia cards won't work on mojave until nvidia release the web driver)
    2. `10.13` or `"high sierra"` \(with quotes\) for macOS High Sierra release
    3. `10.11` or `"el capitan"` \(with quotes\) for OS X El Capitan release
    4. `10.10` or `yosemite` for OS X Yosemite release
